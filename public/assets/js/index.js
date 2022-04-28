@@ -5,9 +5,9 @@ let newNoteBtn;
 let noteList;
 
 //Set node modules and port
-const express = require('express');
-const fs = require('fs');
-const PORT = 3001;
+// const express = require('express');
+// const fs = require('fs');
+// const PORT = 3001;
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
