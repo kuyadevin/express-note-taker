@@ -4,6 +4,11 @@ let saveNoteBtn;
 let newNoteBtn;
 let noteList;
 
+//Set node modules and port
+const express = require('express');
+const fs = require('fs');
+const PORT = 3001;
+
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
@@ -25,13 +30,15 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
-const getNotes = () =>
+// Does this fetch request and doesn't get anything back
+const getNotes = () => {
   fetch('/api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
     },
   });
+}
 
 const saveNote = (note) =>
   fetch('/api/notes', {
