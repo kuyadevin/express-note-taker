@@ -18,6 +18,8 @@ To run this application there is nothing else required if you are using it from 
 
 ## Deployed Link
 
+![Note Taker](/public/assets/Note%20Taker.gif)
+
 * [See Live Site](https://calm-ridge-41957.herokuapp.com/)
 
 ## Problems Faced
