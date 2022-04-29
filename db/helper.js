@@ -21,9 +21,9 @@ class Helper {
     addNotes(note) {
         const {title, text} = note;
         const newNote = {title, text, id: uuidv4()};
-        var data=JSON.parse(notes);
+        var data=JSON.parse(note);
         return this.getNotes()
-        .then((notes) => [...notes, newNote])
+        .then((note) => [...note, newNote])
         .then((noteUpdate) => this.write(noteUpdate))
         .then(() => newNote);
         

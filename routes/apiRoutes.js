@@ -4,8 +4,8 @@ const helper = require('../db/helper');
 router.get("./notes", (req,res) => {
     helper
     .getNotes()
-    .then((notes) => {
-        return res.json(notes)
+    .then((note) => {
+        return res.json(note)
     }).catch((err) => res.status(500).json(err))
 
 })
