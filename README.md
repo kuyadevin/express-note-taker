@@ -1,5 +1,5 @@
 # note-taker
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 This app is a Note Taker that uses front-end and back-end development inorder to make notes, store them on a server, and access them when clicked. This project involved creating the routes and fuctions to be able to get the information from the notes from the server we are creating as well as posting the new notes we are creating.
 
 ## Getting Started
@@ -10,7 +10,6 @@ To start this application, simply click on the link to the notes page. Once redi
 
 To run this application there is nothing else required if you are using it from the deployed link.
 
-### Installing
 
 ## Built With
 
@@ -19,16 +18,19 @@ To run this application there is nothing else required if you are using it from 
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://calm-ridge-41957.herokuapp.com/)
+
+## Problems Faced
+
+I encountered a few problems with saving a note. I can not figure out how to save the note to the backend.
 
 ## Authors
 
 * Devin Nguyen
 
-- [Link to Portfolio Site](#)
-- [Link to Github](https://github.com/)
-- [Link to LinkedIn](https://www.linkedin.com/)
+- [Link to Github](https://github.com/kuyadevin)
+- [Link to LinkedIn](https://www.linkedin.com/in/devin-nguyen-9a0676212/)
 
 ## License
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 This project is licensed under the MIT License 
